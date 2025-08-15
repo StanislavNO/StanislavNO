@@ -6,18 +6,6 @@
 
 ## 📖 About Me
 
-I'm a passionate game developer specializing in **C#** and **Unity**, with a keen interest in creating engaging games
-and exploring mathematical modeling with **Mathematica**. I love building projects like 2D survival games, mobile game
-architectures, and physics simulations. When I'm not coding, you can find me diving into game design patterns or solving
-algorithmic challenges.
-
->Легенда мира геймдева, архитектор виртуальных вселенных, ковбой кода и повелитель нейросетей. Пишу алгоритмы, которые
->заставляют NPC сомневаться в своей реальности, создаю AI, который однажды заменит меня самого, и дебажу баги, которые по
->праву можно назвать цифровыми мифами.
->Где другие видят ошибки — я вижу вызовы. Где другие боятся рефакторинга — я вижу искусство.
-
-## 📖 About Me
-
 <div align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&duration=4000&pause=500&color=00FF00&center=true&vCenter=true&width=700&lines=Game+Developer;C%23+%2B+Unity+Enthusiast;Mathematical+Modeling+Fan;Architect+of+Virtual+Worlds" alt="Typing SVG"/>
 </div>

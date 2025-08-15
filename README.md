@@ -51,7 +51,7 @@ Check out my 3D contribution graph, visualizing my coding journey!
 
 ## 📊 LeetCode Stats
 <div align="center">
-  <img src="https://leetcode-stats-six.vercel.app/api?username=your-leetcode-username&theme=dark" alt="LeetCode Stats"/>
+  <img src="https://leetcode-stats-six.vercel.app/api?username=StanisLavNO&theme=dark" alt="LeetCode Stats"/>
 </div>
 
 ## 👀 Profile Views

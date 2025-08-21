@@ -29,23 +29,10 @@ I'm a passionate game developer specializing in **C#** and **Unity**, with a kee
   </a>
 </div>
 
-## 📈 GitHub Stats
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=StanislavNO&show_icons=true&theme=radical" alt="StanislavNO's GitHub Stats"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=StanislavNO&theme=dark" alt="GitHub Streak"/>
-</div>
-
 ## 💻 Top Languages
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=StanislavNO&layout=compact&theme=radical" alt="Top Languages"/>
-</div>
-
-## 🏆 Achievements
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=StanislavNO&theme=onedark" alt="GitHub Trophies"/>
 </div>
 
 ## 🧩 Featured Projects

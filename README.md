@@ -1,68 +1,72 @@
-# Welcome to StanislavNO's GitHub!
+# Stanislav
 
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=30&duration=3000&color=33FF33&center=true&vCenter=true&width=435&lines=Hey,+I'm+Stanislav!;Game+Developer;Passionate+about+C%23+and+Math" alt="Typing SVG"/>
-</div>
+### Senior Unity Developer · C# · Architecture & Gameplay Systems
 
-## About Me
+I design and implement Unity codebases with an emphasis on clear boundaries, maintainable gameplay systems, runtime services, and platform integrations.
 
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&duration=4000&pause=500&color=00FF00&center=true&vCenter=true&width=700&lines=Game+Developer;C%23+%2B+Unity+Enthusiast;Mathematical+Modeling+Fan;Architect+of+Virtual+Worlds" alt="Typing SVG"/>
-</div>
+My public work covers modular game architecture, dependency injection, finite-state machines, object pooling, ECS, asynchronous workflows, monetization and analytics services, and WebGL platform SDKs.
 
-I'm a passionate game developer specializing in **C#** and **Unity**, with a keen interest in creating engaging games and exploring mathematical modeling with **Mathematica**. I love building projects like 2D survival games, mobile game architectures, and physics simulations. When I'm not coding, you can find me diving into game design patterns or solving algorithmic challenges.
+[Telegram — @stanislavnur](https://t.me/stanislavnur)
 
-> 🏆 **Легенда мира геймдева**, архитектор виртуальных вселенных, ковбой кода и повелитель нейросетей.  
-> Пишу алгоритмы, которые заставляют NPC сомневаться в своей реальности, создаю AI, 
-> который однажды заменит меня самого,
-> и дебажу баги, которые можно назвать цифровыми мифами.
-> Где другие видят ошибки — я вижу вызовы. Где другие боятся рефакторинга — я вижу искусство.
+## Engineering profile
 
+- **Architecture:** dependency injection, game state machines, factories, service layers, persistence, and scene lifecycle.
+- **Gameplay:** 2D physics, input abstraction, UI flows, spawning systems, object pooling, and configuration-driven behaviour.
+- **Platform services:** Unity WebGL, Unity Ads, In-App Purchasing, Firebase Analytics, and Remote Config.
+- **Data-oriented and asynchronous code:** ECS contexts and code generation, UniTask, and interface-driven runtime services.
 
-<div align="center">
-  <h2>🌐 Connect with Me</h2>
-  <a href="https://github.com/StanislavNO">
-    <img src="https://img.shields.io/badge/View%20on%20GitHub-%230077B5.svg?&style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-  </a>
-  <a href="https://t.me/stanislavnur">
-    <img src="https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"/>
-  </a>
-</div>
+## Selected public work
 
-## Top Languages
+### [Asteroids — modular Unity game](https://github.com/StanislavNO/Asteroids_Kefir)
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=StanislavNO&layout=compact&theme=radical" alt="Top Languages"/>
-</div>
+A Unity 2022 LTS project that separates core gameplay from platform-facing meta services.
 
-## Featured Projects
+- Core gameplay is organised around interfaces, factories, installers, and reusable runtime services.
+- Includes object pooling, scene switching, pause handling, configurable weapons and enemies, and separate UI controllers.
+- Integrates UniTask, Unity Ads, In-App Purchasing, Firebase Analytics, Remote Config, and local session persistence behind dedicated abstractions.
 
-- **[Asteroids_Kefir](https://github.com/StanislavNO/Asteroids_Kefir)**: A classic Asteroids game built in C# with
-  Unity, showcasing game mechanics and smooth gameplay.
-- **[Game-Patterns](https://github.com/StanislavNO/Game-Patterns)**: A collection of game design patterns implemented in
-  C#, perfect for learning and applying in game development.
-- **[ARHITECTURE_MOBILE_GAME](https://github.com/StanislavNO/ARHITECTURE_MOBILE_GAME)**: A mobile game architecture
-  project in C#, demonstrating scalable and modular design.
-- **[ECS_Survival_2D](https://github.com/StanislavNO/ECS_Survival_2D)**: A 2D survival game using Entity Component
-  System (ECS) in Unity, highlighting performance optimization.
-- **[WebGameYG](https://github.com/StanislavNO/WebGameYG)**: A web-based game project in C#, exploring cross-platform
-  game development.
-- **[Physics](https://github.com/StanislavNO/Physics)**: Mathematical simulations and models built in Mathematica,
-  showcasing my passion for physics and computation.
+`Unity 2022 LTS` `C#` `UniTask` `DI` `Pooling` `Firebase` `IAP`
 
-## Codewars Stats
+### [ECS Survival 2D — data-oriented gameplay](https://github.com/StanislavNO/ECS_Survival_2D)
 
-<div align="center">
-  <img src="https://github.r2v.ch/codewars?user=StanisLavNO&theme=dark" alt="Codewars Stats"/>
-</div>
+A 2D survival-game architecture experiment built around Entitas-style ECS contexts, generated code, and small runtime services.
 
-## Quote of the Day
+- Separates game, input, and meta contexts.
+- Contains custom generator plugins for entity APIs and single-value components.
+- Isolates physics, time, randomness, input, identifiers, static data, assets, and scene loading through interfaces.
 
-<div align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark" alt="Inspirational Quote"/>
-</div>
+`Unity 2022 LTS` `C#` `Entitas ECS` `Code Generation` `Zenject` `2D`
 
----
+### [Bot Collectors — autonomous-agent gameplay](https://github.com/StanislavNO/bot-collectors)
 
-*“Code is like art: it’s never finished, only abandoned. Keep creating!”*  
-Let’s connect and build something amazing together! ✨
+A Unity 2022 LTS gameplay project built around autonomous collector agents and explicit runtime composition.
+
+- Models agent behaviour as a finite-state machine with search, movement, collection, and return states.
+- Uses factories, object pooling, presenters, installers, and configuration objects to separate gameplay from infrastructure.
+- Includes AI Navigation, configurable spawning, scoring, bot-path visualisation, and input abstractions.
+
+`Unity 2022 LTS` `C#` `AI Navigation` `State Machine` `DI` `Pooling`
+
+[Watch the gameplay demo](https://youtu.be/lXjnF72bpWo)
+
+### [WebGameYG — Unity WebGL integration](https://github.com/StanislavNO/WebGameYG)
+
+A Unity WebGL gameplay project with separate runtime systems and browser-platform packages.
+
+- Separates character and enemy behaviour into dedicated finite-state machines.
+- Uses an enemy queue pool with event-based return, plus abstractions for scene loading, pause, time, and wallet state.
+- Includes Agava WebUtility and Yandex Games packages alongside Unity's Input System.
+
+`Unity WebGL` `C#` `Yandex Games SDK` `Input System`
+
+## Engineering approach
+
+- Keep gameplay rules separate from infrastructure and platform SDKs.
+- Put runtime dependencies behind small interfaces and compose them at explicit entry points.
+- Use factories and pools when object lifetime is part of the design.
+- Isolate platform-specific behaviour so the gameplay layer remains portable.
+- Prefer code that is easy to inspect, extend, and replace over hidden coupling.
+
+## Contact
+
+For professional conversations and collaboration, reach me on [Telegram](https://t.me/stanislavnur).

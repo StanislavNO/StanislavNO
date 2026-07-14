@@ -1,72 +1,82 @@
+<p align="center">
+  <img src="./assets/brand/unity-development-triptych.jpg" alt="3D prototyping, C# engineering, and 2D game-development systems" width="100%" />
+</p>
+
 # Stanislav
 
-### Senior Unity Developer · C# · Architecture & Gameplay Systems
+### Senior Unity Developer · I build systems, not script piles.
 
-I design and implement Unity codebases with an emphasis on clear boundaries, maintainable gameplay systems, runtime services, and platform integrations.
+**Unity / C# · 2D & 3D · Gameplay Architecture · AI · ECS · WebGL**
 
-My public work covers modular game architecture, dependency injection, finite-state machines, object pooling, ECS, asynchronous workflows, monetization and analytics services, and WebGL platform SDKs.
+I work where gameplay meets engineering: game states, physics, autonomous agents, runtime services, monetization, analytics, and platform integrations.
 
-[Telegram — @stanislavnur](https://t.me/stanislavnur)
+I like code that survives the second feature — not just the first demo. If a project needs both a playable loop and an architecture that will not fight the team later, that is my territory.
 
-## Engineering profile
+[**Telegram →**](https://t.me/stanislavnur)
 
-- **Architecture:** dependency injection, game state machines, factories, service layers, persistence, and scene lifecycle.
-- **Gameplay:** 2D physics, input abstraction, UI flows, spawning systems, object pooling, and configuration-driven behaviour.
-- **Platform services:** Unity WebGL, Unity Ads, In-App Purchasing, Firebase Analytics, and Remote Config.
-- **Data-oriented and asynchronous code:** ECS contexts and code generation, UniTask, and interface-driven runtime services.
+<p>
+  <img src="./assets/icons/unity.svg" alt="Unity" title="Unity" width="42" height="42" />
+  &nbsp;
+  <img src="./assets/icons/csharp.svg" alt="C#" title="C#" width="42" height="42" />
+  &nbsp;
+  <img src="./assets/icons/dotnet.svg" alt=".NET" title=".NET" width="42" height="42" />
+  &nbsp;
+  <img src="./assets/icons/rider.svg" alt="JetBrains Rider" title="JetBrains Rider" width="42" height="42" />
+  &nbsp;
+  <img src="./assets/icons/git.svg" alt="Git" title="Git" width="42" height="42" />
+</p>
 
-## Selected public work
+## Selected builds
 
-### [Asteroids — modular Unity game](https://github.com/StanislavNO/Asteroids_Kefir)
+### 01 — [Bot Collectors](https://github.com/StanislavNO/bot-collectors)
 
-A Unity 2022 LTS project that separates core gameplay from platform-facing meta services.
+[![Bot Collectors gameplay prototype with autonomous agents and path visualization](./assets/projects/bot-collectors-demo.jpg)](https://youtu.be/lXjnF72bpWo)
 
-- Core gameplay is organised around interfaces, factories, installers, and reusable runtime services.
-- Includes object pooling, scene switching, pause handling, configurable weapons and enemies, and separate UI controllers.
-- Integrates UniTask, Unity Ads, In-App Purchasing, Firebase Analytics, Remote Config, and local session persistence behind dedicated abstractions.
+**A 3D gameplay-systems lab for autonomous collector agents.**
 
-`Unity 2022 LTS` `C#` `UniTask` `DI` `Pooling` `Firebase` `IAP`
+- Per-agent FSM: search → move → collect → return.
+- AI Navigation, factories, pooling, DI, configurable factions, and runtime controls.
+- Visible agent paths make the decision flow easy to inspect while the simulation is running.
 
-### [ECS Survival 2D — data-oriented gameplay](https://github.com/StanislavNO/ECS_Survival_2D)
+[**Watch the demo →**](https://youtu.be/lXjnF72bpWo) · [**Explore the code →**](https://github.com/StanislavNO/bot-collectors)
 
-A 2D survival-game architecture experiment built around Entitas-style ECS contexts, generated code, and small runtime services.
+---
 
-- Separates game, input, and meta contexts.
-- Contains custom generator plugins for entity APIs and single-value components.
-- Isolates physics, time, randomness, input, identifiers, static data, assets, and scene loading through interfaces.
+### 02 — [Asteroids](https://github.com/StanislavNO/Asteroids_Kefir)
 
-`Unity 2022 LTS` `C#` `Entitas ECS` `Code Generation` `Zenject` `2D`
+**A small arcade game with production-shaped internals.**
 
-### [Bot Collectors — autonomous-agent gameplay](https://github.com/StanislavNO/bot-collectors)
+- Core gameplay and platform-facing Meta services live in separate layers.
+- UniTask, DI, factories, pooling, scene switching, pause handling, and configurable enemies and weapons.
+- Unity Ads, IAP, Firebase Analytics, Remote Config, and local session persistence sit behind dedicated boundaries.
 
-A Unity 2022 LTS gameplay project built around autonomous collector agents and explicit runtime composition.
+[**Explore the code →**](https://github.com/StanislavNO/Asteroids_Kefir)
 
-- Models agent behaviour as a finite-state machine with search, movement, collection, and return states.
-- Uses factories, object pooling, presenters, installers, and configuration objects to separate gameplay from infrastructure.
-- Includes AI Navigation, configurable spawning, scoring, bot-path visualisation, and input abstractions.
+---
 
-`Unity 2022 LTS` `C#` `AI Navigation` `State Machine` `DI` `Pooling`
+### 03 — [ECS Survival 2D](https://github.com/StanislavNO/ECS_Survival_2D)
 
-[Watch the gameplay demo](https://youtu.be/lXjnF72bpWo)
+**The architecture-deep one: Entitas-style ECS with custom code generation.**
 
-### [WebGameYG — Unity WebGL integration](https://github.com/StanislavNO/WebGameYG)
+- Separate Game, Input, and Meta contexts.
+- Custom generators for entity APIs and single-value components.
+- Physics, time, randomness, static data, assets, identifiers, and scene loading are isolated behind small interfaces.
 
-A Unity WebGL gameplay project with separate runtime systems and browser-platform packages.
+[**Explore the code →**](https://github.com/StanislavNO/ECS_Survival_2D)
 
-- Separates character and enemy behaviour into dedicated finite-state machines.
-- Uses an enemy queue pool with event-based return, plus abstractions for scene loading, pause, time, and wallet state.
-- Includes Agava WebUtility and Yandex Games packages alongside Unity's Input System.
+## The way I think about Unity
 
-`Unity WebGL` `C#` `Yandex Games SDK` `Input System`
+- **Gameplay first.** Architecture earns its place by making iteration safer and faster.
+- **Explicit composition beats scene magic.** Dependencies should be visible at the entry point.
+- **SDK boundaries matter.** Ads, analytics, purchasing, and platform APIs should not shape gameplay code.
+- **2D and 3D are different toolboxes, not different engineering standards.**
 
-## Engineering approach
+## More code worth opening
 
-- Keep gameplay rules separate from infrastructure and platform SDKs.
-- Put runtime dependencies behind small interfaces and compose them at explicit entry points.
-- Use factories and pools when object lifetime is part of the design.
-- Isolate platform-specific behaviour so the gameplay layer remains portable.
-- Prefer code that is easy to inspect, extend, and replace over hidden coupling.
+[WebGameYG](https://github.com/StanislavNO/WebGameYG) — character and enemy FSMs, an event-return pool, scene and pause abstractions, and a Unity WebGL setup with browser-platform packages.
 
-## Contact
+## Let’s talk
 
-For professional conversations and collaboration, reach me on [Telegram](https://t.me/stanislavnur).
+If you are hiring for a senior Unity role — or deciding whether I would fit your technical culture — open one of the repositories above and challenge the trade-offs. That is the conversation I want.
+
+[**Message me on Telegram →**](https://t.me/stanislavnur)
